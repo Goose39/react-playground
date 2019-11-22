@@ -6,7 +6,7 @@ class Tabs extends React.Component {
   };
 
   state = {
-    currentTabIndex: 0
+    currentTabIndex: null
   };
 
   handleButtonClick(index) {
